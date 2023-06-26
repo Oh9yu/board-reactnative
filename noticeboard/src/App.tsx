@@ -9,6 +9,8 @@ import Theme from './styles/Theme';
 const Stack = createNativeStackNavigator();
 
 function App(): JSX.Element {
+  console.log('refresh');
+
   return (
     <ThemeProvider theme={Theme}>
       <NavigationContainer>

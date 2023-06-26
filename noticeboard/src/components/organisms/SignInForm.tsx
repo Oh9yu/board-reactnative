@@ -41,4 +41,9 @@ const SignInForm = () => {
 
 export default SignInForm;
 
-const Form = styled.View``;
+const Form = styled.View`
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 220px;
+`;
