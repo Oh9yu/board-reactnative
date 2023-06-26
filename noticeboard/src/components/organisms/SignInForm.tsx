@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {styled} from 'styled-components/native';
 import SignInput from '../molecules/SignInput';
+import Button from '../atoms/Button';
 
 const SignInForm = () => {
   const [inputValue, setInputValue] = useState({id: '', password: ''});
@@ -9,7 +10,9 @@ const SignInForm = () => {
     setInputValue({...inputValue, [name]: text});
   };
 
-  console.log(inputValue);
+  const pressHandler = () => {
+    console.log(123);
+  };
 
   return (
     <Form>
@@ -31,6 +34,7 @@ const SignInForm = () => {
           textChangeHandler('password', inputText);
         }}
       />
+      <Button title="로그인" pressHandler={pressHandler} />
     </Form>
   );
 };

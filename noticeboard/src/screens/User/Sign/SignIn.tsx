@@ -11,9 +11,6 @@ export default function SignIn({navigation}: any) {
         <Title fontSize={24}>SignIn</Title>
         <Button title="signIn" />
       </View>
-      <Container>
-        <Title fontSize={30}>타이틀</Title>
-      </Container>
       <SignInForm />
     </SafeAreaView>
   );
