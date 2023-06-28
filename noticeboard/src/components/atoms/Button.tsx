@@ -20,6 +20,7 @@ const ButtonContainer = styled.TouchableOpacity`
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   padding: 12px;
   border-radius: 8px;
   background-color: ${({theme}) => theme.color.blue3};

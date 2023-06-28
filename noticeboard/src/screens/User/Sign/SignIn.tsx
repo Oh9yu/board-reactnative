@@ -12,7 +12,12 @@ export default function SignIn({navigation}: any) {
         <Container width={85} height={90} bgc="#fff" shadow="transparent">
           <Logo source={require('../../../asset/images/logo.png')} />
           <SignInForm />
-          <SignUpBtn title="회원이 아니신가요?" />
+          <SignUpBtn
+            title="회원이 아니신가요?"
+            onPress={() => {
+              console.log(123);
+            }}
+          />
         </Container>
       </Container>
     </Body>

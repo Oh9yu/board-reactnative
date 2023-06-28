@@ -14,7 +14,7 @@ function App(): JSX.Element {
   return (
     <ThemeProvider theme={Theme}>
       <NavigationContainer>
-        <Stack.Navigator initialRouteName="SignIn">
+        <Stack.Navigator initialRouteName="SignUp">
           <Stack.Screen
             name="SignIn"
             component={SignIn}

@@ -36,4 +36,6 @@ const Lable = styled.Text`
   font-size: 16px;
 `;
 
-const InputBox = styled.View``;
+const InputBox = styled.View`
+  width: 100%;
+`;
